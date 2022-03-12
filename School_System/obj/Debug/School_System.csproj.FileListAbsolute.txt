@@ -1,0 +1,13 @@
+C:\Users\kofi3\Downloads\School_System2_2 (1)\School_System2_2\School_System2 (2)\School_System\obj\Debug\School_System.csproj.AssemblyReference.cache
+C:\Users\kofi3\Downloads\School_System2_2 (1)\School_System2_2\School_System2 (2)\School_System\obj\Debug\School_System.csproj.SuggestedBindingRedirects.cache
+C:\Users\kofi3\Downloads\School_System2_2 (1)\School_System2_2\School_System2 (2)\School_System\obj\Debug\School_System.AdminForm.resources
+C:\Users\kofi3\Downloads\School_System2_2 (1)\School_System2_2\School_System2 (2)\School_System\obj\Debug\School_System.loginForm.resources
+C:\Users\kofi3\Downloads\School_System2_2 (1)\School_System2_2\School_System2 (2)\School_System\obj\Debug\School_System.RegistrationForm.resources
+C:\Users\kofi3\Downloads\School_System2_2 (1)\School_System2_2\School_System2 (2)\School_System\obj\Debug\School_System.StudentForm.resources
+C:\Users\kofi3\Downloads\School_System2_2 (1)\School_System2_2\School_System2 (2)\School_System\obj\Debug\School_System.TeacherForm.resources
+C:\Users\kofi3\Downloads\School_System2_2 (1)\School_System2_2\School_System2 (2)\School_System\obj\Debug\School_System.AdminForm.fr-CA.resources
+C:\Users\kofi3\Downloads\School_System2_2 (1)\School_System2_2\School_System2 (2)\School_System\obj\Debug\School_System.loginForm.fr-CA.resources
+C:\Users\kofi3\Downloads\School_System2_2 (1)\School_System2_2\School_System2 (2)\School_System\obj\Debug\School_System.RegistrationForm.fr-CA.resources
+C:\Users\kofi3\Downloads\School_System2_2 (1)\School_System2_2\School_System2 (2)\School_System\obj\Debug\School_System.StudentForm.fr-CA.resources
+C:\Users\kofi3\Downloads\School_System2_2 (1)\School_System2_2\School_System2 (2)\School_System\obj\Debug\School_System.TeacherForm.fr-CA.resources
+C:\Users\kofi3\Downloads\School_System2_2 (1)\School_System2_2\School_System2 (2)\School_System\obj\Debug\School_System.csproj.GenerateResource.cache

@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>632, 565</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="courseRB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="displayButton.Text" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="displayInfoTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="courseRB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;teacherRB.Name" xml:space="preserve">
+    <value>teacherRB</value>
+  </data>
+  <data name="&gt;&gt;errorLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 10.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="courseRB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 78</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="teacherRB.Text" xml:space="preserve">
+    <value>Add Teacher</value>
+  </data>
+  <data name="&gt;&gt;logoutButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="idTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="teacherRB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;teacherRB.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="createButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 15pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;displayInfoTextBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="teacherRB.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;colorDialog1.Name" xml:space="preserve">
+    <value>colorDialog1</value>
+  </data>
+  <data name="errorLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;nameTextBox.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;courseRB.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;displayButton.Name" xml:space="preserve">
+    <value>displayButton</value>
+  </data>
+  <data name="teacherRB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="createButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 41</value>
+  </data>
+  <data name="&gt;&gt;nameTextBox.Name" xml:space="preserve">
+    <value>nameTextBox</value>
+  </data>
+  <data name="logoutButton.Text" xml:space="preserve">
+    <value>LOG OUT</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 80</value>
+  </data>
+  <data name="teacherRB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 24</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AdminForm</value>
+  </data>
+  <data name="&gt;&gt;logoutButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="displayInfoTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 96</value>
+  </data>
+  <data name="logoutButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 14pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;courseRB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="studentRB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 203</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="createButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 139</value>
+  </data>
+  <data name="passwordTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="createButton.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="studentRB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;logoutButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;displayInfoTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 28</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 10.25pt, style=Bold</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 34</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;createButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="displayButton.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;colorDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="idTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 30</value>
+  </data>
+  <data name="displayInfoTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 324</value>
+  </data>
+  <data name="passwordTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 10.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;errorLabel.Name" xml:space="preserve">
+    <value>errorLabel</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>AdminForm</value>
+  </data>
+  <data name="logoutButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="errorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>489, 29</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 13</value>
+  </data>
+  <data name="passwordTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 27</value>
+  </data>
+  <data name="&gt;&gt;displayButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;studentRB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="createButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="courseRB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="nameTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="nameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="studentRB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 24</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;displayInfoTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="passwordTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 161</value>
+  </data>
+  <data name="logoutButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 37</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;displayInfoTextBox.Name" xml:space="preserve">
+    <value>displayInfoTextBox</value>
+  </data>
+  <data name="displayButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 15pt, style=Bold</value>
+  </data>
+  <data name="displayInfoTextBox.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;nameTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;displayButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 117</value>
+  </data>
+  <data name="createButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 469</value>
+  </data>
+  <data name="&gt;&gt;teacherRB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 70</value>
+  </data>
+  <data name="&gt;&gt;teacherRB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 19</value>
+  </data>
+  <data name="passwordTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;logoutButton.Name" xml:space="preserve">
+    <value>logoutButton</value>
+  </data>
+  <data name="nameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 92</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 19</value>
+  </data>
+  <data name="&gt;&gt;errorLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="displayButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;courseRB.Name" xml:space="preserve">
+    <value>courseRB</value>
+  </data>
+  <data name="studentRB.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="idTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="studentRB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 19</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 8</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="displayButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>359, 469</value>
+  </data>
+  <data name="nameTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 10.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;studentRB.Name" xml:space="preserve">
+    <value>studentRB</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox.Name" xml:space="preserve">
+    <value>passwordTextBox</value>
+  </data>
+  <data name="&gt;&gt;studentRB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="displayInfoTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="errorLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="studentRB.Text" xml:space="preserve">
+    <value>Add Student</value>
+  </data>
+  <data name="logoutButton.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="&gt;&gt;createButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;courseRB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 10.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 19</value>
+  </data>
+  <data name="&gt;&gt;createButton.Name" xml:space="preserve">
+    <value>createButton</value>
+  </data>
+  <data name="teacherRB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 48</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 25.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;idTextBox.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;createButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="displayButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 41</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;displayButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="idTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 27</value>
+  </data>
+  <data name="displayInfoTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 10.25pt, style=Bold</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 217</value>
+  </data>
+  <data name="courseRB.Text" xml:space="preserve">
+    <value>Add Course</value>
+  </data>
+  <data name="errorLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 437</value>
+  </data>
+  <data name="createButton.Text" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="logoutButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 516</value>
+  </data>
+  <data name="courseRB.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;idTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="idTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 10.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;idTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;studentRB.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="nameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 27</value>
+  </data>
+  <data name="&gt;&gt;errorLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;idTextBox.Name" xml:space="preserve">
+    <value>idTextBox</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <metadata name="colorDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>29</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
